@@ -1,0 +1,36 @@
+vim.loader.enable()
+
+vim.g.mapleader = " "
+vim.g.maplocalleader = " "
+
+require("core.options")
+require("core.pack")
+require("plugins")
+require("plugins.mason")
+require("core.lsp")
+require("core.diagnostics")
+require("plugins.conform")
+
+require("plugins.treesitter")
+require("plugins.oil")
+require("plugins.nvterm")
+require("plugins.hop")
+require("plugins.harpoon")
+require("plugins.nvimtree")
+require("plugins.undotree")
+require("plugins.peek")
+require("plugins.vimwiki")
+require("plugins.vimtex")
+require("plugins.telescope")
+require("plugins.colorscheme")
+require("plugins.mini_completion")
+require("plugins.actions_preview")
+require("plugins.autopairs")
+require("plugins.surround")
+require("plugins.typst-preview")
+require("plugins.scrollEOF")
+
+require("plugins.gitsigns")
+require("plugins.comment")
+require("plugins.statusline")
+require("core.mappings")
