@@ -29,6 +29,7 @@ require("plugins.autopairs")
 require("plugins.surround")
 require("plugins.typst-preview")
 require("plugins.scrollEOF")
+require("plugins.lspsaga")
 
 require("plugins.gitsigns")
 require("plugins.comment")
