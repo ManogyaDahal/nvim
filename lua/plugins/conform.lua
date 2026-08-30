@@ -7,7 +7,7 @@ conform.setup({
 	formatters_by_ft = {
 		lua = { "stylua" },
 		rust = { "rustfmt" },
-		go = { "gofmt" },
+		go = { "gofumpt" },
 		python = { "usort" },
 		c = { "clang_format" },
 		cpp = { "clang_format" },
