@@ -42,5 +42,6 @@ vim.pack.add({
   -- scrolloffset
   "https://github.com/Aasim-A/scrollEOF.nvim",
 "https://github.com/shellRaining/hlchunk.nvim",
-
+-- indent
+"https://github.com/nvim-mini/mini.indentscope",
 })
