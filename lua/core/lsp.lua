@@ -15,6 +15,7 @@ local servers = {
   "tailwindcss-language-server",
   "tinymist",
   "asm_lsp",
+  "buf",
 }
 
 local ok_lspconfig = pcall(require, "lspconfig")

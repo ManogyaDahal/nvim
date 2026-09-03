@@ -30,9 +30,10 @@ require("plugins.surround")
 require("plugins.typst-preview")
 require("plugins.scrollEOF")
 require("plugins.lspsaga")
-require("plugins.indentline")
 
 require("plugins.gitsigns")
 require("plugins.comment")
 require("plugins.statusline")
+require("plugins.indentline")
+
 require("core.mappings")
